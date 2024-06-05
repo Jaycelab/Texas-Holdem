@@ -1,20 +1,40 @@
-# texas-holdem
+# Texas Hold'em
 
-A Hold 'Em style poker game using vanilla JavaScript.
-This version of the game has been modified for single player.
-Multi-player support coming soon!
+## Description
 
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" width="45" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="45" width="45" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="45" width="45" />
-</p>
+This is a Texas Hold'em project that aims to simulate the popular poker game.
 
-The player can currently play through a sandboxed Texas Holdem poker game.
-The game progresses like an actual casino style game, but there are no other players to be concerned with.
-The player is simply betting on the likelihood of getting a great hand, based on the cards they have each round.
+## Features
 
-## Programming Highlights:
-- The game loop is simple and intuitive.
-- The objects are all modular, and ready for use in a multiplayer version.
-- I created a unique scoring system that will allow for determining winners with minimal overhead.
+- Player vs. computer gameplay
+- Interactive user interface
+- Realistic card dealing and gameplay mechanics
+- Betting system with chips
+- Hand evaluation and winner determination
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/Jaycelab/texas-holdem.git`
+2. Navigate to the project directory: `cd texas-holdem`
+3. Install dependencies: `npm install`
+
+## Usage
+
+1. Start the game: `npm start`
+2. Follow the on-screen instructions to play Texas Hold'em.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [Deck of Cards API](https://deckofcardsapi.com/)
+
+## Contact
+
+For any questions or inquiries, please contact [jason.json@outlook.com](mailto:jason.json@outlook.com).
