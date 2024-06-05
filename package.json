@@ -1,0 +1,25 @@
+{
+  "name": "texas-holup",
+  "version": "1.0.0",
+  "description": "Texas Holup Wait A Minute.",
+  "main": "script.js",
+  "author": "Jayce <jason.json@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "email": "jason.json@hotmail.com"
+  },
+  "keywords": [
+    "noob",
+    "iamconfusion",
+    "sendhelp",
+    "fjavascript"
+  ],
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "holdem": "^0.1.0"
+  }
+}
