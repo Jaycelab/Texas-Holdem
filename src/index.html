@@ -3,12 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Texas Hol'up</title>
+    <title>Texas Holdem</title>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    asdsda
+    <!--Player Section-->
+    <div class="player">
+      <div class="hand">
+        <div class="card" data-player-card>
+          <div class="card-back card-face">
+            <img src="/public/images/B.svg" alt="Card" />
+          </div>
+          <!--Front Card Face-->
+          <div class="card-front card-face" data-player-card-front>
+            <img src="/public/images/B.svg" alt="Card" data-player-card-value />
+          </div>
+        </div>
+        <!--Back Card Face-->
+        <div class="card" data-player-card>
+          <div class="card-back card-face">
+            <img src="/public/images/B.svg" alt="Card" />
+          </div>
+          <div class="card-front card-face" data-player-card-front>
+            <img src="/public/images/B.svg" alt="Card" data-player-card-value />
+          </div>
+        </div>
+        <!--break-->
+      </div>
+    </div>
+    <!--Player End-->
+
     <script src="script.js"></script>
   </body>
 </html>
