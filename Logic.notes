@@ -1,0 +1,21 @@
+// Cards logic
+
+Deck:
+deck 
+//methods
+reset()
+shuffle()
+deal()
+isEmpty()
+length()
+
+Card:
+//subclasses: 
+card
+value
+suit
+flipped 
+placeHolder
+//methods
+displayCard()
+flip()
